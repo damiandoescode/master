@@ -168,7 +168,7 @@ public class MasterHardware
         
         kickServo.setPosition(KICK_IN);
     }
-    
+
     public void driveReset(){
 
         flDriveMtr.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
